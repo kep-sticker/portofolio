@@ -588,8 +588,17 @@ video {
   }
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .block {
@@ -604,8 +613,16 @@ video {
   width: 100%;
 }
 
+.max-w-full {
+  max-width: 100%;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .self-center {
