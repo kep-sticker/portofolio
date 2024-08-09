@@ -4,10 +4,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#fb923c',
+        primary: ['#fb923c'],
+        dark: ''
       },
     },
   },
-  plugins: [],
+  _plugins: [],
+  get plugins() {
+    return this._plugins;
+  },
+  set plugins(value) {
+    this._plugins = value;
+  },
 }
 
